@@ -1,0 +1,56 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: #1a1f2b;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00ffc3;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #00ffc3;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00caa0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.positive {
+  color: #00ff7f;
+}
+
+.negative {
+  color: #ff4c4c;
+}

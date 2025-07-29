@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mental Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mental Budget Tracker 🧠</h1>
+    <p>Track what’s draining or fueling your energy each day. Stay sharp, stay focused.</p>
+
+    <form id="energyForm">
+      <input type="text" placeholder="What's on your mind?" id="entryInput" required />
+      <select id="energyType">
+        <option value="positive">🔋 Energizing</option>
+        <option value="negative">🔋 Draining</option>
+      </select>
+      <button type="submit">Add to Mind Budget</button>
+    </form>
+
+    <h2>Today's Entries</h2>
+    <ul id="entryList"></ul>
+
+    <div id="reportSection"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
